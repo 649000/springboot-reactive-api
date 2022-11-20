@@ -5,17 +5,19 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.6.0</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<version>2.7.5</version>
 	</parent>
+
 	<groupId>com.example</groupId>
-	<artifactId>springboot-reactive-api-poc</artifactId>
+	<artifactId>reactiveAPI</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-reactive-api-poc</name>
-	<description>springboot-reactive-api-poc</description>
+	<name>Spring Boot Reactive API</name>
+	<description>Spring Boot Reactive API</description>
+
 	<properties>
 		<java.version>11</java.version>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -27,25 +29,30 @@
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
 		<dependency>
 			<groupId>io.r2dbc</groupId>
 			<artifactId>r2dbc-h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
 		<dependency>
 			<groupId>io.projectreactor</groupId>
 			<artifactId>reactor-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
