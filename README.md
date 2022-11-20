@@ -3,7 +3,7 @@ Proof of concept for Spring Boot Reactive REST API with embedded H2 database
 
 
 #### Technologies
-1. Spring Boot 2.6.0
+1. Spring Boot
 2. Spring Data R2DBC - Reative database drivers
 3. Spring Webflux with Project Reactor
 4. Lombok
