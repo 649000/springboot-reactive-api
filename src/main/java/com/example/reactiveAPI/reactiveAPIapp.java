@@ -1,7 +1,7 @@
-package com.example.springbootreactiveapipoc;
+package com.example.reactiveAPI;
 
-import com.example.springbootreactiveapipoc.model.Customer;
-import com.example.springbootreactiveapipoc.repository.CustomerRepository;
+import com.example.reactiveAPI.model.Customer;
+import com.example.reactiveAPI.repository.CustomerRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,10 +11,10 @@ import java.time.Duration;
 import java.util.Arrays;
 
 @SpringBootApplication
-public class SpringbootReactiveApiPocApplication {
+public class reactiveAPIapp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootReactiveApiPocApplication.class, args);
+		SpringApplication.run(reactiveAPIapp.class, args);
 	}
 
 	@Bean

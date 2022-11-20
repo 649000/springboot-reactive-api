@@ -1,4 +1,4 @@
-package com.example.springbootreactiveapipoc.model;
+package com.example.reactiveAPI.model;
 
 
 import lombok.Data;

@@ -1,7 +1,7 @@
-package com.example.springbootreactiveapipoc.controller;
+package com.example.reactiveAPI.controller;
 
-import com.example.springbootreactiveapipoc.model.Customer;
-import com.example.springbootreactiveapipoc.repository.CustomerRepository;
+import com.example.reactiveAPI.model.Customer;
+import com.example.reactiveAPI.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -10,7 +10,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @RestController
-@RequestMapping("/customer")
+@RequestMapping("/api/customer")
 public class CustomerController {
 
     private CustomerRepository customerRepository;

@@ -1,6 +1,6 @@
-package com.example.springbootreactiveapipoc.repository;
+package com.example.reactiveAPI.repository;
 
-import com.example.springbootreactiveapipoc.model.Customer;
+import com.example.reactiveAPI.model.Customer;
 import org.springframework.data.r2dbc.repository.Query;
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;
 
