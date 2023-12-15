@@ -1,4 +1,4 @@
-# Spring Boot Reactive REST API: Exploring Reactivity with Spring
+# Spring Boot Reactive REST API
 
 ## Overview
 This repository serves as a proof of concept (POC) highlighting the implementation of a Spring Boot Reactive REST API. The project utilizes an embedded H2 database to illustrate the capabilities of reactive programming within the Spring ecosystem.
